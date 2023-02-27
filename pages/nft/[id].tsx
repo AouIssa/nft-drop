@@ -16,7 +16,7 @@ function NFTDroppage() {
               alt=""
             />
           </div>
-          <div>
+          <div className="space-y-2 p-5 text-center">
             <h1 className="text-4xl font-bold text-white">Aous Ape</h1>
             <h2 className="text-xl text-gray-300">
               A collection of Aous Apes who lives and breath react
