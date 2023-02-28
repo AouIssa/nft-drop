@@ -48,8 +48,12 @@ function NFTDroppage() {
             {address ? "Sign Out" : "Sign in"}
           </button>
         </header>
+     
+
+        <hr className="my-2 border" />
+
         {address && (
-          <p>
+          <p className="text-center text-sm text-rose-400">
             You are logged in with wallet{" "}
             <span className="font-bold text-purple-600">
               {address.substring(0, 5)}...
@@ -58,7 +62,6 @@ function NFTDroppage() {
           </p>
         )}
 
-        <hr className="my-2 border" />
         {/*Content*/}
         <div
           className="mt-10 flex flex-1 flex-col 
