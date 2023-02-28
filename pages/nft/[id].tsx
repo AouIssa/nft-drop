@@ -25,7 +25,44 @@ function NFTDroppage() {
         </div>
       </div>
       {/*Right side of screen */}
-      <div></div>
+      <div className="flex flex-1 flex-col p-12 lg:col-span-6">
+        {/*Header*/}
+        <header className="items-center flex justify-between">
+          <h1 className="w-52 cursor-pointer text-xl font-extralight sm:w-80">
+            The <span className="font-extrabold underline ">Aous</span> NFT
+            Coding practice place
+          </h1>
+          <button
+            className="rounded-full bg-rose-400
+           text-white px-4 py-2 text-xs font-bold lg:px-5 lg:py-3 lg:text-base"
+          >
+            Sign in
+          </button>
+        </header>
+
+        <hr className="my-2 border" />
+        {/*Content*/}
+        <div
+          className="mt-10 flex flex-1 flex-col 
+        items-center space-y-6 text-center 
+        lg:space-y-0 lg:justify-center"
+        >
+          <img
+            className="w-80 object-cover pb-10 lg:h-40"
+            src="https://i.imgur.com/nv35UeG.png"
+          />
+
+          <h1 className="text-3xl font-bold lg:text-5xl lg:font-extrabold">
+            The Aous NFT Coding practice place
+          </h1>
+
+          <p className="pt-2 text-xl text-green-500">13/20 NFT's Claimed</p>
+        </div>
+        {/*Mint Button */}
+        <button className="h-16 w-full bg-red-600 text-white rounded-full mt-10">
+          Mint NFT (0.01 ETH)
+        </button>
+      </div>
     </div>
   );
 }
