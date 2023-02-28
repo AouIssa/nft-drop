@@ -2,9 +2,9 @@ import React from "react";
 
 function NFTDroppage() {
   return (
-    <div className="flex h-screen flex-col">
+    <div className="flex h-screen flex-col lg:grid lg:grid-cols-10">
       {/*Left side of screen */}
-      <div className="bg-gradient-to-br from-cyan-500 to-rose-500">
+      <div className="lg:col-span-4 bg-gradient-to-br from-cyan-500 to-rose-500">
         <div className="flex flex-col items-center justify-center py-2 lg:min-h-screen">
           <div
             className="bg-gradient-to-br
