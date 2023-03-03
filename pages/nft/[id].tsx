@@ -48,7 +48,6 @@ function NFTDroppage() {
             {address ? "Sign Out" : "Sign in"}
           </button>
         </header>
-     
 
         <hr className="my-2 border" />
 
