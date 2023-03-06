@@ -24,7 +24,7 @@ const Home = ({ collections }: Props) => {
         <div>
           {collections.map((collection) => (
             <div
-              className="flex flex-col items-center transition-all duration-200 hover:scale-105"
+              className="flex flex-col items-center transition-all duration-200 hover:scale-205"
             >
               <img
                 className="h-96 w-60 rounded-2xl cursor-pointer object-cover "
