@@ -13,13 +13,14 @@
     "@thirdweb-dev/chains": "^0.1.5",
     "@thirdweb-dev/react": "^3.9.5",
     "@thirdweb-dev/sdk": "^3.9.5",
+    "antd": "^5.3.0",
     "ethers": "^5.7.2",
-    "hardhat": "^2.13.0",
     "mysql2": "^3.2.0",
     "next": "latest",
     "next-sanity": "^4.1.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-stack-grid": "^0.7.1",
     "tailwindcss": "^2.2.19",
     "xwind": "^0.8.0"
   },
@@ -29,6 +30,7 @@
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
     "autoprefixer": "^10.4.13",
+    "hardhat": "^2.13.0",
     "postcss": "^8.4.21",
     "typescript": "4.9.4"
   },

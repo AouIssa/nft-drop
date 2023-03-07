@@ -38,3 +38,17 @@ next-env.d.ts
 
 #DB password file
 Server/config/db.js
+
+#Constants.js file
+pages/constants.js
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+
