@@ -1,6 +1,7 @@
 import React from "react";
 import { FaBeer, FaEye } from "react-icons/fa";
 import { GiSpermWhale, GiHamburgerMenu } from "react-icons/gi";
+import Link from "next/link";
 
 export default function Navbar({}) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -35,12 +36,14 @@ export default function Navbar({}) {
                   <FaBeer /> <span className="ml-2">Mint</span>
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75">
-                  <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>
-                  <FaEye /> <span className="ml-2">View</span>
-                </a>
-              </li>
+              <Link href="/view">
+                <li className="nav-item">
+                  <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75">
+                    <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>
+                    <FaEye /> <span className="ml-2">View</span>
+                  </a>
+                </li>
+              </Link>
               <li className="nav-item">
                 <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75">
                   <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>
